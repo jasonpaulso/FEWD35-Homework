@@ -1,6 +1,7 @@
 body {
 	background-color: #444444;
 	color:#fff;
+	
 }
 .container {
 	border: #777778 4px solid;
@@ -10,11 +11,12 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .pipe:after{
     content: "|";
-    color: #777778;
-    
+    color: #777778;   
 }
+
 h1 {
 	text-align: center;
 	font-style: italic;
@@ -39,9 +41,11 @@ img {
 	float: right;
 	padding:5px;
 	border: #777778 1px solid;
+	max-height: 300px;
 }
 p {
 	line-height: 1.5;
+
 	
 }
 article {
