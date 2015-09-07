@@ -45,8 +45,6 @@ img {
 }
 p {
 	line-height: 1.5;
-
-	
 }
 article {
 	padding: 10px;
@@ -54,16 +52,14 @@ article {
 li {
 	list-style: square;
 	padding: 8px;
-
-}
-.nav li {
-	display: inline;
-	text-align: center;
-	padding: 0;
-	font-family: arial;
 }
 .nav {
 	text-align: center;
+}
+.nav li {
+	display: inline;
+	padding: 0;
+	font-family: arial;
 }
 .education li{
 	padding: 0;
