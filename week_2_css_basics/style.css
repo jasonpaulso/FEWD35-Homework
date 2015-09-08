@@ -1,17 +1,15 @@
-body {
+body, .job-title, .education, .text, h2{
 	background-color: #444444;
-	color:#fff;
-	
+	color:#fff;	
 }
 .container {
 	border: #777778 4px solid;
 	width: 600px;
-	padding: 20px;
+	padding: 40px;
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .pipe:after{
     content: "|";
     color: #777778;   
@@ -20,51 +18,68 @@ body {
 h1 {
 	text-align: center;
 	font-style: italic;
+	font-size: 50px;
 	
 }
-h2,a {
+h2 {
 	font-family: arial;
-	color:#fff;
+	font-size: 30px;
 }
-article {
+li {
+	list-style: square;
+}
+.article {
 	border-top: #777778 1px solid;
 	border-bottom: #777778 1px solid;
 	margin-bottom: 10px
 	margin-top: 10px;
 	font-family: georgia;
 	color:#C4C4C4;
+	padding: 10px;
+}
+.article li {
+	padding: 8px;
 }
 a {
-	color: #66CE9B;
+	color: #57C2B3;
 }
 img {
 	float: right;
 	padding:5px;
 	border: #777778 1px solid;
-	max-height: 300px;
 }
 p {
 	line-height: 1.5;
 }
 article {
-	padding: 10px;
+	
 }
-li {
-	list-style: square;
-	padding: 8px;
+h1 {
+  text-align:center;
 }
-.nav {
-	text-align: center;
-}
+
 .nav li {
 	display: inline;
 	padding: 0;
 	font-family: arial;
 }
-.education li{
+.nav ul {
+	margin: 0;
 	padding: 0;
-	color: #fff;
+	list-style-type: none;
+	text-align: center;
 }
-.job-title, .education .text{
-	color:#fff;
+.education li {
+	padding: 0;
 }
+
+header {
+	margin-bottom: 30px;
+}
+footer {
+	margin-top: 30px;
+}
+
+
+
+
