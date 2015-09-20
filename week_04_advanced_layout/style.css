@@ -1,0 +1,17 @@
+.right-button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+.nav-left {
+	padding-left: 52px;
+}
+.main-content {
+	margin-top: 75px;
+}
+.footer {
+	padding-top: 75px;
+	margin: 30px 0 100px 0;
+	border-top: #7F7E7E solid .5px;
+}
+
