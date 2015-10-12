@@ -1,0 +1,21 @@
+.ttt-container {
+	width:900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ttt-row {
+	overflow: hidden;
+}
+
+.ttt-square {
+	width:300px;
+	height:300px;
+	border:#000 1px solid;
+	float:left;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 200px;
+	line-height:300px; 
+}
+
