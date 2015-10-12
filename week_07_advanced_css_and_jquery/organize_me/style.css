@@ -1,0 +1,164 @@
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+      display:block !important;
+  }
+  .imageWrapper {
+    display: none;
+  }
+}
+
+#header {
+	margin-top: 50px;
+}
+#content {
+	margin-top: 20px;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+.dropdown, .navbar-brand {
+	margin-left:14px;
+
+	text-align: center;
+}
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.content-headline, .seperator{
+	border-bottom: grey solid 1px;
+	text-align: right;
+}
+
+.content-headline > h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.carousel-caption>span{
+  background: rgba(0,0,0,0.5);
+  font-weight: bolder;
+  padding: 3px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none
+}
+
+.carousel-control {
+	color: black;
+}
+.orange {
+	color: #ff6600;
+}
+.col-sm-8 h2, h3{
+  text-align: right;
+
+}
+.date {
+  margin-top: 5px;
+  color: grey;
+
+}
+.col-sm- h2 {
+ margin-top: 0px;
+}
+.nav-tabs li a{
+  color: #ff6600;
+}
+.article {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: auto;
+}
+.article p {
+  padding: 0;
+  margin-top: 2px;
+}
+.thumb {
+  float:left;
+}
+img.thumb {
+  margin-top: 80px;
+  display: block;
+}
+.copy {
+  margin-left: 210px;
+  text-align: justify;
+  padding-left: 10px;
+}
+.title {
+  text-align: right;
+  margin-bottom: -20px;
+}
+.title a, #best-bets-title a{
+  text-decoration: none;
+  color: black !important;
+
+}
+.left {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#best-bets-title {
+  text-align: right;
+}
+img.ad-right {
+  margin-bottom: 10px;
+}
+body {
+  min-height: 1000px;
+}
+#imageWrapper { 
+  position: relative; 
+  height: 300px;
+  float: left;
+}
+#bottomImage { position: absolute; 
+  top: 89px; 
+}
+
