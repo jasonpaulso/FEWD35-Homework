@@ -1,6 +1,7 @@
 .navbar-header{
-  margin-left:5px;
-  width:100%;
+	margin-left:5px;
+	width:100%;
+	text-align: center;
 }
 .navbar-header ul {
 	margin-right: 10px;
@@ -8,7 +9,6 @@
 
 .tabs li{
 	padding-top: 10px;
-
 }
 
 .navbar-brand {
@@ -18,11 +18,26 @@
 }
 @media (max-width: 600px) {
 	.navbar {
-		/*display: inline;*/
 		text-align: center;
 		width: 100%;
 	}
 	.navbar-inner, .navbar .btn-navbar {
 		border: 0px;
+	}
+}
 
+.xs-collapse {
+	display: none;
+	visibility: hidden;
+}
+
+@media (min-width: 768px) {
+	.xs-toggle {
+		display: none;
+		visibility: hidden;
+	}
+	.xs-collapse {
+		display: block;
+		visibility: visible;
+	}
 }
