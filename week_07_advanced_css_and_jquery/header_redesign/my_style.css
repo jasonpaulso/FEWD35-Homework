@@ -16,22 +16,20 @@
 	padding-right: 20px;
 	font-size: 2em;
 }
-@media (max-width: 600px) {
 	.navbar {
 		text-align: center;
 		width: 100%;
 	}
-	.navbar-inner, .navbar .btn-navbar {
-		border: 0px;
-	}
-}
-
 .xs-collapse {
 	display: none;
 	visibility: hidden;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
+	.navbar {
+		text-align: center;
+		width: 100%;
+	}
 	.xs-toggle {
 		display: none;
 		visibility: hidden;
