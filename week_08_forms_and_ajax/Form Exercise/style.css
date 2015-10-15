@@ -1,0 +1,29 @@
+.container {
+	width: 800px;
+	height: 1000px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4em;
+	padding:20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	padding:15px;
+	border-radius: 5px;
+	line-height: 50px;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+
+}
